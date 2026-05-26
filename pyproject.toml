@@ -1,3 +1,6 @@
 [project]
 name = "cmtk-pre-commit"
 version = "0.0.0"
+dependencies = [
+    "cmtk==0.1.0",
+]

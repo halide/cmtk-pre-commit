@@ -3,7 +3,7 @@
   description: Format CMake files in place with cmtk.
   entry: cmtk format --discover=git -i
   language: python
-  additional_dependencies: ["cmtk==0.1.0"]
+  additional_dependencies: []
   files: (^|/)CMakeLists\.txt$|\.cmake(\.in)?$
   require_serial: true
 
@@ -12,6 +12,6 @@
   description: Check that CMake files are formatted with cmtk, without modifying them.
   entry: cmtk format --discover=git --check
   language: python
-  additional_dependencies: ["cmtk==0.1.0"]
+  additional_dependencies: []
   files: (^|/)CMakeLists\.txt$|\.cmake(\.in)?$
   require_serial: true
